@@ -1,0 +1,12 @@
+package com.example.springapp.Controllers;
+
+@RestController
+@RequestMapping("/api")
+public class ApiController
+{
+    @GetMapping("/welcome")
+    public String Welcome()
+    {
+
+    }
+}
